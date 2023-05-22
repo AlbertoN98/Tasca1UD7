@@ -9,7 +9,6 @@ import java.util.List;
 
 
 public class Any {
-
     private final long any;
     /**
      * Constructor para los digitos any
