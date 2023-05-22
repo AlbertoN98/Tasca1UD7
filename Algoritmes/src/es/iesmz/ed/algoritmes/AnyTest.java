@@ -28,7 +28,7 @@ class AnyTest {
     }
     @Test
     void digitsDiferents5() {
-        Any any = new Any(2030);
+        Any any = new Any(2040);
         assertEquals(3,any.digitsDiferents());
     }
 }
