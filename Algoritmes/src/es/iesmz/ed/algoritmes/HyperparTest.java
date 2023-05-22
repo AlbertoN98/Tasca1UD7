@@ -13,7 +13,7 @@ class HyperparTest {
     }
     @Test
     public void test2() {
-        Hyperpar hyper = new Hyperpar(166874);
+        Hyperpar hyper = new Hyperpar(166872);
         assertFalse(hyper.esHyperPar());
     }
     @Test
