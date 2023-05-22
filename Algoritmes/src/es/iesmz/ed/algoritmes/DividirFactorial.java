@@ -10,7 +10,7 @@ public class DividirFactorial {
     }
 
     public double factorial() {
-        double resultado = 1;
+        long resultado = 1;
         for (int i = denominador + 1; i <= numerador; i++) {
             resultado *= i;
         }
