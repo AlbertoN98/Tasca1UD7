@@ -29,7 +29,7 @@ class DividirFactorialTest {
     }
     @Test
     void Factorial5() {
-        DividirFactorial dividir = new DividirFactorial(9,5);
-        assertEquals(3024,dividir.factorial());
+        DividirFactorial dividir = new DividirFactorial(9,6);
+        assertEquals(504,dividir.factorial());
     }
 }
