@@ -7,22 +7,17 @@ public class Hyperpar {
         this.numero = numero;
     }
 
-    public boolean esHyperPar(long num){
-        boolean esPar = true;
-        int contador = 0;
-        int noContadorPar = 0;
-        int numeros;
-        String numero = String.valueOf(num);
-        for (int i = 0; i <numero.length() ; i++) {
-            if (numero.charAt(i) % 2 == 0) {
-                contador++;
-            }else {
-                noContadorPar ++;
+    public boolean esHyperPar() {
+        String num = String.valueOf(numero);
+        int contadorPar = 0;
+        for (int i = 0; i < num.length(); i++) {
+            if (num.charAt(i) % 2 == 0) {
+                contadorPar++;
+            } else {
+                return false;
             }
         }
-        if (noContadorPar > 0){
-            esPar = false;
-        }
-        return esPar;
+        return contadorPar > 0;
     }
 }
+
